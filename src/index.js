@@ -1,10 +1,12 @@
-import "./styles.css";
+//分割代入
+// const myProfile = {
+//   name: "mori",
+//   age: 35
+// };
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+// const { name, age } = myProfile;
+// const message2 = `名前は${name}です。年齢は${age}歳です`;
+// console.log(message2);
+
+const nameArr = ["山田", "佐藤", "渡辺"];
+nameArr.map((name) => console.log(name));
